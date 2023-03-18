@@ -10,21 +10,60 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="container mx-auto">
     <!-- header section  -->
     <head>
-        <section>
+        <section class="bg-secondary bg-gradient">
+            <!-- navbar section -->
             <nav>
-                
+                <nav class="navbar navbar-expand-lg pe-5 py-5">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
+                                <li class="nav-item me-3">
+                                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <button class="btn btn-danger ms-5 me-5 px-5 py-2" type="submit">Login</button>
+                        </div>
+                    </div>
+                </nav>
             </nav>
+            <!-- banner section -->
+            <div>
+                <div class="container text-white px-5 pb-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-flex  align-items-center">
+                            <div>
+                                <p>Computer-controlled digital transistorized with electronic advance</p>
+                                <h2 class="fw-bolder">Honda CBR 300R</h2>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+                                    mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                <button type="button" class="btn btn-danger px-5 py-2 me-5">Danger</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="img-fluid d-block" src="/images/header-bike.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </section>
-
     </head>
-
-   
-    
-
     <!-- bootstrap js file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
